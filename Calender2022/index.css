@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 620px;
+    background-image: url(./images/image5.jpeg);
+    background-size: cover;
+    overflow: hidden;
+}
+.header{
+    font-family:cursive;
+    font-size: 40px;
+    text-shadow: 2px 2px 10px black;
+    margin-top: 10px;
+    height: 60px;
+    text-align: center;
+}
+.main{
+    width: 90%;
+    height: 500px;
+    /* background-color: red; */
+    opacity: .8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    left: 70px;
+    top: 70px;
+    
+}
+
+.months{
+    background-color: darkgray;
+    background-image: url(./images/image1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20%;
+    height: 450px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.btn-months{
+    width: 90px;
+    height: 30px;
+    font-size: 20px;
+    font-family: Cambria;
+    font-weight: bold;
+    background-color: rgb(13, 179, 245);
+    margin-left: 70px;
+    margin-top: 40px;
+    box-shadow: 3px 3px 10px black;
+    cursor:pointer;
+    border-radius: 3px 20px 3px 20px;
+}
+.btn-months:hover{
+    color: black;
+    background-color: white;
+    transition-duration: 1s;
+}
+ 
+/* .slider_banner{
+    width:50%;
+    height: 450px;
+    overflow: hidden;
+    background-color: lightgray;
+    background-image: linear-gradient(rgb(255, 81, 0),yellow,rgb(25, 164, 219));
+}
+.slider{
+    width: 700%;
+    // height: 450px; 
+    animation-name: slider;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    animation-play-state: running;
+    animation-delay: 2s;
+}
+@keyframes slider{
+     8.33333333333%{
+        margin-left: -100%;
+    }
+    16.6666666667%{
+       margin-left: -100%;
+   }
+   25%{
+       margin-left: -200%;
+   }
+   33.3333333333%{
+       margin-left: -200%;
+   }
+   41.6666666667%{
+       margin-left: -300%;
+   }
+   50%{
+       margin-left: -300%;
+   }
+   58.3333333333%{
+       margin-left: -400%;
+   }
+   66.6666666666%{
+       margin-left: -400%;
+   }
+   75%{
+       margin-left: -500%;
+   }
+   83.3333333333%{
+       margin-left: -500%;
+   }
+
+   91.6666666666%{
+       margin-left: -600%;
+   }
+
+   100%{
+       margin-left: -600%;
+   }
+}  */
+.calender
+{
+    width: 50%;
+    height: 450px;
+    background-color: lightgray;
+    background-image: linear-gradient(rgb(255, 81, 0),yellow,rgb(25, 164, 219));
+    margin: 30px 20px 20px 20px;
+    border-radius:20px ;
+    overflow: hidden;
+    /* position: fixed; */
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+}
+.cal_head{
+    
+   /* background-color: red; */
+   padding: 25px;
+   text-align: center;
+   font-size: 30px;
+   text-shadow: 2px 2px white;
+   display: flex;
+   justify-content: center;
+   column-gap: 60px;
+   margin-left: 100px;
+   
+}
+/* .img1{
+    width: 50%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./images/img9.jpg);
+    border-radius:20px ;
+    background-position-x: -50px; 
+} */
+.months22{
+     width: 100%;
+    height: 400px; 
+    
+}
+.week_days{
+    /* background-color:yellow; */
+    font-size: 20px;
+    font-family: cursive;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.week_days:hover{
+    color: blue;
+    cursor: pointer;
+}
+.date{
+    font-size: 20px;
+    font-weight: bolder;
+    display: grid;
+    grid-template-columns:repeat(7,auto);
+    justify-content: space-between;
+    row-gap: 20px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.date >a{
+    text-decoration: none;
+}
+.sunday{
+    font-weight: bolder;
+    color: red;
+}
+.festival{
+    font-weight: bolder;
+    color: red;
+}
+.festival:hover{
+    color: darkred;
+}
+.favdiv{
+    
+    width: 60%;
+    height: 100px;
+    overflow: hidden;
+    background-size: cover;
+    /* scroll-behavior: smooth; */
+}
+.favdiv>img{
+    width:150px;
+    height:100px;
+}
+
+
+
+
