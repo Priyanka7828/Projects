@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <section class="Container" id="header">
+      <div class="logo">
+        <h1>Portfolio</h1>
+      </div>
+      
+      <div class="nav">
+         <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#project">Projects</a>
+        <a href="#skill">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </section>
+    <section class="Home_panel" id="Home">
+        <div class="details">
+            <h2>HI,</h2>
+            <h1>I'm Priyanka</h1>   
+            <h3>Web Developer</h3>  
+            <button class="btn">Hire me</button>
+        </div>
+        <div class="image_section">
+          <div class="Image">
+          </div>
+        </div>
+       
+    </section>
+
+    <section class="About" id="About">
+      <div class="About_Me">
+        <h1>About Me</h1>
+        <p>My name is Priyanka Takalkar/Labade.<br>
+         I'm a Front End Developer.
+         I describe myself as a passionate developer who loves coding.<br>
+         I am MCA Degree Holder. My hobbies are Plantation of trees,<br>
+         spending time with family, gaming with friends and building coding projects that challenge me.
+        </p>
+        <a href="./Files/Priyanka Takalkar_Labade resume.pdf" target="_blank" download><button class="btn">Download CV</button></a>
+      </div>
+    </section>
+    <section class="Projects" id="project">
+      <div class="project_title">
+        <h1>Projects</h1>
+      </div>
+      <div class="Project_details">
+          
+          <div class="project_desc">
+                <h3>TechnoWorld</h3>
+                <img src="./images/technoworld.png">
+          </div>
+          <div class="project_desc">
+                <h3>Thrillophilia</h3>
+                <img src="./images/thrillophilia.png">
+          </div>
+          <div class="project_desc">
+                <h3>Calender</h3>
+                <img src="./images/Calender 2022.png">
+          </div>
+          <div class="project_desc">
+            <h3>Apple Webpage</h3>
+            <img src="./images/Apple.png">
+      </div>
+        
+      </div>
+    </section>
+    <section class="skills" id="skill">
+      <h1>Skills</h1>
+        <div class="skill_name">
+            <img src="./images/html.png">
+            <img src="./images/css3_logo.png">
+            <img src="./images/js_logo.webp">
+        </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="React_out">
+        <div class="Contact_heading">
+            <span>Contact Me</span>
+            <div class="contact_info">
+              <i class="fab fa-linkedin-in"></i> &nbsp;     
+              <a href="https://www.linkedin.com/in/priyanka-takalkar18-pl/" target="_blank">  Priyanka Takalkar_Labade</a>
+             </div>
+             <div class="contact_info">
+              <i class="fab fa-github"></i>  &nbsp;   
+              <a href="https://github.com/Priyanka7828" target="_blank"> Priyanka7828</a>
+             </div>
+             <div class="contact_info">
+              <i class="fas fa-envelope"></i>  &nbsp;   
+               priyankatakalkar18@gmail.com
+             </div>
+             
+             <div class="contact_info">
+              <i class="fas fa-mobile-android-alt"></i>  &nbsp;   
+              +91 842-172-7572
+            </div>
+            </div>
+        <div class="Contact_details">
+          <h1>Reach Out</h1>
+          <input type="text" placeholder="Name">
+          <input type="text" placeholder="Subject">
+          <input type="email" placeholder="Email">
+          <textarea placeholder="Enter Message here"></textarea>
+          <button class="btn">Submit</button>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+    <script>
+      window.onscroll=function()
+      {
+        if(window.pageYOffset>40)
+        {
+          
+          document.getElementById("header").style.backgroundColor="#efeaea";
+        }
+        else{
+          document.getElementById("header").style.backgroundColor="transparent";
+        }
+      }
+    </script>
+</body>
+</html>
