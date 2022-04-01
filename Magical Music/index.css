@@ -1,0 +1,146 @@
+img{
+    background-size: cover;
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-link {
+    /* color: lightgray; */
+    font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link:hover {
+  /* background-color: #FFACB7; */
+  background-color: rgb(125, 95, 235);
+  color: #fff;
+}
+.navbar .navbar-nav .nav-link {
+    padding: 0.6em;
+}
+.navbar .navbar-brand {
+    padding: 0 0.6em;
+  }
+.navbar .navbar-nav .nav-link {
+    padding: 1em 0.7em;
+    transition:all 0.5s;
+  }
+
+.padd{
+  margin-top: 30px;
+}
+
+
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 550px;
+  }
+
+
+
+  .cards_info{
+    display: flex;
+    background-color: #fffafa;
+    padding: 50px;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+  .cards{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    row-gap: 20px;
+    column-gap: 20px;
+    flex-wrap: wrap;
+  }
+  .card{
+    box-shadow: rgb(0 0 0 / 15%) 0px 3px 8px;
+  }
+  .card:hover{
+    box-shadow: rgb(0 0 0 / 30%) 0px 5px 15px;
+  }
+.card>img{
+    height: 250px;
+}
+
+/* About */
+.about{
+  flex-direction: column;
+  row-gap: 20px;
+  height: 500px;
+  /* background-color: red; */
+  background-image: url('https://cdn.shopify.com/s/files/1/0436/6696/4634/files/Video1920x700.jpg?v=1595593796');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+
+.facebook{
+  color:blue;
+}
+.insta{
+  color: purple;
+}
+.twitter{
+  color:skyblue;
+  
+}
+
+/* css for contact us */
+
+.container-fluid{
+  /* height: 600px; */
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  column-gap: 10px;
+}
+.contact_info{
+  height: 500px;
+}
+.store_info{
+  width: 35%;
+  /* background-color: red; */
+}
+.contact{
+  width: 40%;
+  padding: 20px;
+  /* background-color: yellow; */
+  border: 1px solid lightgray;
+}
+
+.store_info>p>i{
+  font-size: 20px;
+}
+
+
+
+/* css for footer */
+.footer1{
+  width: 100%;
+  /* height: 50px; */
+  background-color: rgb(163, 161, 161);
+  display: flex;
+  justify-content: center;
+}
+.footer_info{
+  width: 80%;
+  height: 40px;
+  font-size: 16px;
+  padding:10px;
+  color: black;
+  /* background-color: red; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+  
