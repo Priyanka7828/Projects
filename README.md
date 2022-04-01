@@ -1,2 +1,2 @@
 # Projects
-calender using Html and CSS
+Projects using HTML,CSS and vanilla Javascript.
